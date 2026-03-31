@@ -1,1 +1,71 @@
+/* GENERAL */
+body {
+  font-family: Arial, sans-serif;
+}
 
+/* LOGO */
+.logo {
+  height: 40px;
+}
+
+/* HERO SECTION */
+.hero-section {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+/* SIDEBAR */
+.sidebar {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  padding: 10px 15px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
+
+/* INFO BOXES */
+.info-box {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+/* SORTABLE TABLE HEADERS */
+th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+th.sorted-asc::after {
+  content: " ▲";
+  color: #007bff;
+}
+
+th.sorted-desc::after {
+  content: " ▼";
+  color: #007bff;
+}
+
+/* DARK MODE */
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .navbar,
+.dark-mode footer {
+  background-color: #000 !important;
+}
+
+.dark-mode .sidebar {
+  background
