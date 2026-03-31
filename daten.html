@@ -195,7 +195,7 @@ function sortTable(columnIndex) {
     const cellB = rowB.cells[columnIndex].innerText.trim();
 
     const numA = parseFloat(cellA.replace(",", "."));
-    const numB = parseFloat(numB = parseFloat(cellB.replace(",", ".")));
+    const numB = parseFloat(cellB.replace(",", "."));
 
     const valA = isNaN(numA) ? cellA.toLowerCase() : numA;
     const valB = isNaN(numB) ? cellB.toLowerCase() : numB;
