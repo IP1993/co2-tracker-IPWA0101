@@ -5,7 +5,9 @@ body {
 
 /* LOGO */
 .logo {
-  height: 40px;
+  height: 40px !important;
+  width: auto !important;
+  object-fit: contain;
 }
 
 /* HERO SECTION */
